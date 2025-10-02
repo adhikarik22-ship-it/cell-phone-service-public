@@ -7,6 +7,7 @@ public class CellPhone {
     private String carrier;
     private String phoneNumber;
     private String owner;
+    private String otherNumber;
 
     // parameterless constructor
     public CellPhone() {
@@ -61,4 +62,13 @@ public class CellPhone {
         this.owner = owner;
     }
 
+    public CellPhone(String owner) {
+        this.owner = owner;
+        this.phoneNumber = otherNumber;
+
+        System.out.println(owner + "is calling" + phoneNumber);
+    }
+
+    public String getOtherNumber(){return phoneNumber;
+    }
 }
