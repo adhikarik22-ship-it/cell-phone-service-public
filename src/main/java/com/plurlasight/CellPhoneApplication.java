@@ -25,12 +25,18 @@ public class CellPhoneApplication {
         System.out.println("Owner's Name:");
         String owner = scanner.nextLine();
 
+        // using setter to add value
 
+        System.out.println("\nCell Phone Info: ");
+        System.out.println("Serial Number: " + myCellPhone.getSerialNumber());
 
+        System.out.println("Model: " + myCellPhone.getModel());
 
+        System.out.println("Carrier: " + myCellPhone.getCarrier());
 
+        System.out.println("Phone Number: " + myCellPhone.getPhoneNumber());
 
-
+        System.out.println("Owner's name: " + myCellPhone.getOwner());
 
 
     }
